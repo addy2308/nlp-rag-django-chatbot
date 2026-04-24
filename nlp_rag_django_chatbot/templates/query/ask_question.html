@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Ask a Question{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h3 class="text-center text-primary">NLP with RAG: Ask a Question</h3>
+    <br>
+    <form>
+        {% csrf_token %}
+        <div class="mb-3">
+            <input type="text" class="form-control" id="question" 
+                   value="What is Cosine Similarity?" 
+                   placeholder="Enter your question here" />
+            <span class="error-message" id="question-error"></span>
+        </div> 
+        <br>
+        <button type="button" id="question_btn" class="btn btn-success">Search</button>
+    </form>
+    <hr>
+    <div id="acknowledge"></div>       
+</div>
+
+{% endblock %}

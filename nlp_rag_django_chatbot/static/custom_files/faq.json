@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "How do I remove stop words in Python?",
+        "answer": "You can use NLTK's stopwords list to filter out common words from your text."
+    },
+    {
+        "id": 2,
+        "question": "How can I remove stop words using NLTK?",
+        "answer": "NLTK provides a stopwords list you can use to remove common words."
+    },
+    {
+        "id": 3,
+        "question": "What is lemmatization in NLP?",
+        "answer": "Lemmatization reduces a word to its base or dictionary form."
+    },
+    {
+        "id": 4,
+        "question": "How do I perform lemmatization using Python?",
+        "answer": "You can use NLTK's WordNetLemmatizer to perform lemmatization in Python."
+    },
+    {
+        "id": 5,
+        "question": "What is tokenization and how to tokenize text?",
+        "answer": "Tokenization splits text into words, sentences, or subwords."
+    },
+    {
+        "id": 6,
+        "question": "How can I tokenize text using NLTK in Python?",
+        "answer": "You can use NLTK's `word_tokenize` or `sent_tokenize` functions to tokenize text."
+    },
+    {
+        "id": 7,
+        "question": "How do I calculate cosine similarity between two texts?",
+        "answer": "You can use scikit-learn's `cosine_similarity` function to measure similarity between vectors."
+    },
+    {
+        "id": 8,
+        "question": "What is TF-IDF and how is it used in NLP?",
+        "answer": "TF-IDF measures word importance and is used to convert text into vectors."
+    },
+    {
+        "id": 9,
+        "question": "How can I remove common words from text?",
+        "answer": "Stop words are common words that can be removed to clean your text."
+    },
+    {
+        "id": 10,
+        "question": "How do I clean and preprocess text data in Python?",
+        "answer": "You can tokenize, remove stop words, and lemmatize your text to preprocess it."
+    }
+]

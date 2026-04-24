@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow-lg p-4">
+                    <h1 class="text-center text-primary mb-4">Welcome to NLP with RAG</h1>
+                    <div class="card-body">
+                        <p class="lead text-center">
+                            My AI Agent:
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong class="text-success">Phase-1:</strong> Django with RAG.
+                            </li>
+                            <li class="list-group-item">
+                                <strong class="text-success">Phase-2:</strong> It accepts user queries and pass it to the NLP.
+                            </li>
+                            <li class="list-group-item">
+                                <strong class="text-danger">Phase-3:</strong> NLP processes the query in association with the RAG.
+                            </li>
+                            <li class="list-group-item">
+                                <strong class="text-primary">Action (Output Generation):</strong> It returns an AI-generated response based on the document content while restricting answers to only what's in the uploaded file.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
